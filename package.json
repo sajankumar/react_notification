@@ -1,0 +1,37 @@
+{
+  "name": "react_notification",
+  "version": "1.0.0",
+  "description": "React library for handling simple notification",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/webpack --watch",
+    "build": "./node_modules/.bin/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sajankumar/react_notification.git"
+  },
+  "keywords": [
+    "notification",
+    "notify",
+    "react"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "css-loader": "^0.28.8",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0"
+  },
+  "author": "sajankumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sajankumar/react_notification/issues"
+  },
+  "homepage": "https://github.com/sajankumar/react_notification#readme"
+}

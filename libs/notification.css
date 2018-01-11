@@ -1,0 +1,99 @@
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: 700;
+  border-bottom: 1px solid hsl(0, 0%, 21%);
+}
+
+/* colors */
+.white{
+  background-color: hsl(0, 0%, 100%);
+  color: #000000;
+}
+.black {
+  background-color: hsl(0, 0%, 4%);
+  color: #FFFFFF;
+}
+.light {
+  background-color: hsl(0, 0%, 96%);
+  color: hsl(0, 0%, 21%);
+}
+.dark {
+  background-color: hsl(0, 0%, 21%);
+  color: hsl(0, 0%, 96%);
+}
+.primary {
+  background-color: hsl(171, 100%, 41%);
+  color: #FFFFFF;
+}
+.info {
+  background-color: hsl(204, 86%, 53%);
+  color: #FFFFFF;
+}
+.success {
+  background-color: hsl(141, 71%, 48%);
+  color: #FFFFFF;
+}
+.warning {
+  background-color: hsl(48, 100%, 67%);
+  color: #FFFFFF;
+
+}
+.danger {
+  background-color: hsl(348, 100%, 61%);
+  color: #FFFFFF;
+
+}
+
+/* text area */
+.textArea {
+  display: flex;
+  align-items: center;
+}
+.textArea p {
+  font-weight: 400;
+  padding-left: 10px;
+  width: 1000px;
+}
+.textArea p h1,h2,h3,h4,h5,h6 {
+  padding: 0px;
+  margin: 0px;
+}
+.textArea i {
+  padding-left: 10px;
+  font-size: 30px;
+  padding-right: 20px;
+}
+
+
+/* controls */
+.controls {
+  position: relative;
+  left: -1%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  border: 1px solid;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+.controls i {
+  -moz-transition: all 1s ease;
+	/* WebKit */
+	-webkit-transition: all 1s ease;
+	/* Opera */
+	-o-transition: all 1s ease;
+	/* Standard */
+	transition: all 1s ease;
+}
+.controls:hover i{
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
