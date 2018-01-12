@@ -1,6 +1,6 @@
 {
-  "name": "react_notification",
-  "version": "1.0.0",
+  "name": "rc_notify_lib",
+  "version": "1.0.1",
   "description": "React library for handling simple notification",
   "main": "build/index.js",
   "scripts": {
